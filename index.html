@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #000;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, sans-serif;
+      padding: 20px;
+    }
+    .container {
+      max-width: 400px;
+      text-align: center;
+    }
+    .qr-card {
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    .address {
+      word-break: break-all;
+      margin: 15px 0;
+      font-family: monospace;
+      font-size: 14px;
+    }
+    .coin-name {
+      font-weight: bold;
+      margin-bottom: 8px;
+      display: block;
+    }
+    h1 {
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+    p {
+      margin: 10px 0;
+      color: #aaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Support Me</h1>
+    <p>If you find this project helpful, consider a donation:</p>
+    
+    <div class="qr-card">
+      <div class="address"><span class="coin-name">BTC</span><br>bc1qqxg3aw9fr5zug9rqdp49t39983khqh3628pud2</div>
+      <img src="BTC.webp" alt="BTC QR code" width="180">
+    </div>
+    
+    <div class="qr-card">
+      <div class="address"><span class="coin-name">LTC</span><br>ltc1qj43vlpqzfgvs566fjw33n0agk86thmzsg0j0jl</div>
+      <img src="LTC.webp" alt="LTC QR code" width="180">
+    </div>
+    
+    <div class="qr-card">
+      <div class="address"><span class="coin-name">BCH</span><br>qppqc7xg3636ekddaynxer6kpmd4s9zxr5j0w46geu</div>
+      <img src="BCH.webp" alt="BCH QR code" width="180">
+    </div>
+    
+    <div class="qr-card">
+      <div class="address"><span class="coin-name">XMR</span><br>8AM7r1uCaRyTcdPdvRSg7xhPXvTNzqLNnJAZ9CDtKk6gc6SXkBB4hC62iZjeocp5kbgXq2VWHURfJQVCFp6Gr7DX3ocJe1A</div>
+      <img src="XMR.webp" alt="XMR QR code" width="180">
+    </div>
+  </div>
+</body>
+</html>
